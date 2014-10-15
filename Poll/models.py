@@ -1,9 +1,6 @@
 from django.db import models
 from datetime import datetime
 
-def __all__:
-    return [Pollster, Poll, Question, Subquestion, Category, Group, Answer, Result]
-
 class Pollster(models.Model):
     def __str__(self):
         return self.name
